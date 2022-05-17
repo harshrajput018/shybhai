@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #nav{
+        display: flex;
+        border-radius: 25px;
+        flex-direction: row;
+        align-items: center;
+        background-color: blanchedalmond;
+    }
+    .elem{
+        color:cadetblue;
+        margin: 10px;
+    }
+    #main{
+        margin-left: 450px;
+        display: flex;
+        width: 500px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #counter{
+        font-size: 100px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #allbtn{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+    }
+    .btn{
+        margin: 5px;
+        border-radius: 10px;
+        
+        font-family: cursive;
+        padding: 10px;
+        background-color:gainsboro;
+    }
+    
+</style>
+<body>
+    <div id="nav">
+        <div class="elem"  style="font-size: 30px">Counter</div>
+        <div class="elem">Home</div>
+        <div class="elem">About</div>
+        <div class="elem">Careers</div>
+    </div>
+
+    <div id="main">
+        <div id="counter">
+            0
+        </div>
+        <div id="allbtn">
+            <div class="btn" id="inc">increase</div>
+            <div class="btn" id="dec">decrease</div>
+            <div class="btn" id="res">reset</div>
+        </div>
+    </div>
+    <script src="counter.js"></script>
+    
+</body>
+</html>

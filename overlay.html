@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    #main {
+        background-image: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80');
+        width: 1358px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    button {
+        padding: 20px;
+        margin: 5px;
+        height: 20px;
+
+    }
+
+    h1{
+        font-weight: 500;
+        font-size: 80px;
+    }
+
+    #card {
+        
+        width: 500px;
+        background-color: goldenrod;
+        padding: 50px;
+        margin: 30px;
+        position: absolute;
+        border-radius: 50px;
+    }
+
+    #btn {
+
+        padding: 5px;
+        border-radius: 5px;
+        background: rgb(17, 218, 147);
+        position: absolute;
+        margin-top: -50px;
+        color: rgb(233, 240, 12);
+        font-family: sans-serif;
+    }
+
+    #symbol {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 50px;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <button>a</button><button>b</button><button>c</button>
+        <div id="card">
+
+            <div id="symbol">&olcross;</div>
+            <div id="inner">
+                
+                <h1 style="color: rgb(44, 30, 3);">Words of wisdom</h1>
+                <div id="btn">Reveal</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="overlay.js"></script>
+
+</html>
