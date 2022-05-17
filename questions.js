@@ -30,6 +30,13 @@ a.forEach((element,index) => {
     })
 });
 
+for(int i=0;i<3;i++)
+{
+    a[i].addEventListener('click',function(){
+        document.getElementById(i+3).innerHTML=answer[i];
+    })
+}
+
 
 
 
