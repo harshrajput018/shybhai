@@ -12,37 +12,59 @@
         position: absolute;
         margin-left: 30%;
         margin-top: 5%;
-        background-color: lightgray;
         width: 500px;
         height: 500px;
     }
 
     #questions {
-        border-style: solid;
         display: flex;
         flex-direction: column;
+        
         margin-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .symbol{
-        position: absolute;
-        right: 30px;
-        
+        position: relative;
+        top:-20px;
+        left: 430px;
     }
 
     .elem {
-        display: flex;
+        
         margin-top: 15px;
-        background-color: cornsilk;
+
         width: auto;
         height: 20px;
+    }
+    .answer{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        position: relative;
+        display: none;
+        background: orangered;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .ques{
+        font-family: cursive;
+    }
+    #heading{
+        
+        padding-left: 35px;
+        font-weight: 700;
+        font-size: 20px;
+        font-family: cursive;
+        font-style: oblique;
     }
 </style>
 
 <body>
     <div id="main">
+
+        <div id="heading">
+            General Questions
+        </div>
         <div id="questions">
 
            
